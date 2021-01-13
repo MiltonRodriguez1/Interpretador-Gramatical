@@ -1,0 +1,38 @@
+digraph salida {
+	rankdir=LR size="8,5"
+	node [shape=circle]
+	a
+	M -> a [label=""]
+	node [shape=circle]
+	M
+	M -> M [label=""]
+	node [shape=circle]
+	a
+	M -> a [label=""]
+	node [shape=circle]
+	M
+	node [shape=circle]
+	z
+	M -> z [label=""]
+	node [shape=circle]
+	M
+	node [shape=circle]
+	b
+	N -> b [label=""]
+	node [shape=circle]
+	N
+	N -> N [label=""]
+	node [shape=circle]
+	b
+	N -> b [label=""]
+	node [shape=circle]
+	N
+	node [shape=circle]
+	z
+	N -> z [label=""]
+	node [shape=circle]
+	N
+	node [shape=none]
+	edge [arrowhead=empty arrowsize=1.5]
+	"" -> S
+}
