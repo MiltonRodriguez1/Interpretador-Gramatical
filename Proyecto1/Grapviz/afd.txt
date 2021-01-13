@@ -1,0 +1,1 @@
+digraph G{node[shape=record];graph[pencolor=transparent];rankdir=LR;node [fontname="Arial"];node_1 [label="{{<back>}|{Producto: Hola0| Cantidad: 3| Precio: 25}|{<next>}}"];node_2 [label="{{<back>}|{Producto: Hola1| Cantidad: 2| Precio: 34}|{<next>}}"];edge[tailclip=false,arrowtail=dot,dir=both];node_1:next:c -> node_2:back:c;}

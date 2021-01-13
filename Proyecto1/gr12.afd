@@ -1,0 +1,7 @@
+A > 1 A
+A > 0 B
+B > 1 B
+C > epsilon
+C > 1 C
+C > 0 C
+B > 0 C

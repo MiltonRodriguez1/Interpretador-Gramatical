@@ -1,0 +1,24 @@
+digraph MiGramatica {
+	rankdir=LR size="8,5"
+	node [shape=circle]
+	i
+	node [shape=circle]
+	p
+	node [shape=circle]
+	q
+	node [shape=doublecircle]
+	f
+	i -> p [label="λ,λ;#"]
+	p -> q [label="λ,λ;"]
+	q -> q [label="λ,S;z M N z "]
+	q -> q [label="λ,M;a M a "]
+	q -> q [label="λ,M;z "]
+	q -> q [label="λ,N;b N b "]
+	q -> q [label="λ,N;z "]
+	q -> q [label="a,a;λ"]
+	q -> q [label="b,b;λ"]
+	q -> f [label="λ,#;λ"]
+	node [shape=none]
+	edge [arrowhead=empty arrowsize=1.5]
+	"" -> i
+}

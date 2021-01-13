@@ -1,0 +1,16 @@
+A,B,c;false,true
+A,G,v;false,false
+B,C,c;true,false
+B,D,v;true,true
+C,G,v;false,false
+C,B,c;false,true
+D,E,v;true,true
+D,C,c;true,false
+E,F,v;true,true
+E,C,c;true,false
+F,C,c;true,false
+G,H,v;false,false
+G,B,c;false,true
+H,I,v;false,false
+H,B,c;false,true
+I,B,c;false,true

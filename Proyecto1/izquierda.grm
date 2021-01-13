@@ -1,0 +1,9 @@
+S > a A
+S > b B
+A' > 1 A'
+A' > epsilon
+A' > 0 A'
+A > 0 A'
+B' > s B'
+B' > epsilon
+B > m B'

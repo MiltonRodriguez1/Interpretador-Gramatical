@@ -1,0 +1,24 @@
+digraph hola {
+	rankdir=LR size="8,5"
+	node [shape=circle]
+	i
+	node [shape=circle]
+	p
+	node [shape=circle]
+	q
+	node [shape=doublecircle]
+	f
+	i -> p [label="λ,λ;#"]
+	p -> q [label="λ,λ;S"]
+	q -> q [label="λ,;"]
+	q -> q [label="λ,;"]
+	q -> q [label="λ,;"]
+	q -> q [label="λ,;"]
+	q -> q [label="λ,;"]
+	q -> q [label="a,a;"]
+	q -> q [label="b,b;"]
+	q -> f [label="λ,#;λ"]
+	node [shape=none]
+	edge [arrowhead=empty arrowsize=1.5]
+	"" -> i
+}
